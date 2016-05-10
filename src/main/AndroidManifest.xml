@@ -117,7 +117,7 @@
         <activity android:name=".module.CatalogActivity" />
         <activity
             android:name=".module.demo.adapter.DemoAdapterActivity"
-            android:theme="@style/AppFullScreenBaseThemeWithStatusBarAbove"
+            android:theme="@style/MyAppFullScreenBaseThemeWithStatusBarAbove"
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".module.demo.DemoHolderActivity" />
         <activity android:name=".module.demo.DemoMakeCallActivity" />
