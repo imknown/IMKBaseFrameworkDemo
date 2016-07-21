@@ -5,8 +5,8 @@ import com.soft2t.imk2tbaseframework.base.Constant;
 public class MyConstant {
 
 	// URL ================
-	public static final String DEBUG_STATIC_HEAD = "staticbeta";
-	public static final String RELEASE_STATIC_HEAD = "static";
+	public static final String DEBUG_STATIC_HEAD = "sd";
+	public static final String RELEASE_STATIC_HEAD = "sr";
 
 	public static String getStaticFixUrl(String whatAspx) {
 		String url = Constant.Net.SCHEMA;
@@ -17,13 +17,13 @@ public class MyConstant {
 			url += RELEASE_STATIC_HEAD;
 		}
 
-		url += ".cnyanglao.com" + ":" + Constant.Net.TOMCAT_PORT + Constant.SLASH + whatAspx;
+		url += ".imknown.net" + ":" + Constant.Net.TOMCAT_PORT + Constant.SLASH + whatAspx;
 
 		return url;
 	}
 
-	public static final String DEBUG_HEAD = "apibeta";
-	public static final String RELEASE_HEAD = "api";
+	public static final String DEBUG_HEAD = "d";
+	public static final String RELEASE_HEAD = "r";
 
 	public static String getFixUrl(String whatAspx) {
 		String url = Constant.Net.SCHEMA;
@@ -34,7 +34,7 @@ public class MyConstant {
 			url += RELEASE_HEAD;
 		}
 
-		url += ".cnyanglao.com" + ":" + Constant.Net.TOMCAT_PORT + Constant.SLASH + whatAspx;
+		url += ".imknown.net" + ":" + Constant.Net.TOMCAT_PORT + Constant.SLASH + whatAspx;
 
 		return url;
 	}
